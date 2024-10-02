@@ -423,7 +423,7 @@ impl CmdOptions {
             menu_mode: false,
             debug: cli.debug,
             connector: MemConnector::PCILeech(s!("fpga").to_string()),
-            target_process_name: cli.proc_name.unwrap_or(s!("r5apex.exe").to_string()),
+            target_process_name: cli.proc_name.unwrap_or(s!("r5apex_dx12.exe").to_string()),
             force_bypass_check: cli.force_bypass_check,
         };
 
